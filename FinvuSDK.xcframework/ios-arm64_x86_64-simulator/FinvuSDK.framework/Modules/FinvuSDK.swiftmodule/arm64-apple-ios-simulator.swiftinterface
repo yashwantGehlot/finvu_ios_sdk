@@ -106,6 +106,16 @@ public typealias CompletionHandler = (Foundation.NSError?) -> Swift.Void
   @objc public init(reference: Swift.String)
   @objc deinit
 }
+@objc(FinvuLoginResponse) @objcMembers final public class FinvuLoginResponse : ObjectiveC.NSObject {
+  final public let deviceBindingValid: Swift.Bool?
+  public init(deviceBindingValid: Swift.Bool?)
+  @objc deinit
+}
+@objc(FinvuDeviceBinding) @objcMembers final public class FinvuDeviceBinding : ObjectiveC.NSObject {
+  @objc final public let secret: Swift.String
+  @objc public init(secret: Swift.String)
+  @objc deinit
+}
 @objc(FinvuConsentHandleStatusResponse) @objcMembers final public class ConsentHandleStatusResponse : ObjectiveC.NSObject {
   @objc final public let status: Swift.String
   @objc public init(status: Swift.String)
@@ -160,13 +170,13 @@ public typealias CompletionHandler = (Foundation.NSError?) -> Swift.Void
 }
 @objc(FinvuFIPInfo) @objcMembers final public class FIPInfo : ObjectiveC.NSObject {
   @objc final public let fipId: Swift.String
-  @objc final public let productName: Swift.String
+  @objc final public let productName: Swift.String?
   @objc final public let fipFitypes: [Swift.String]
   @objc final public let fipFsr: Swift.String?
   @objc final public let productDesc: Swift.String?
   @objc final public let productIconUri: Swift.String?
   @objc final public let enabled: Swift.Bool
-  @objc public init(fipId: Swift.String, productName: Swift.String, fipFitypes: [Swift.String], fipFsr: Swift.String?, productDesc: Swift.String?, productIconUri: Swift.String?, enabled: Swift.Bool)
+  @objc public init(fipId: Swift.String, productName: Swift.String?, fipFitypes: [Swift.String], fipFsr: Swift.String?, productDesc: Swift.String?, productIconUri: Swift.String?, enabled: Swift.Bool)
   @objc deinit
 }
 @objc(FinvuFIPDetails) @objcMembers final public class FIPDetails : ObjectiveC.NSObject {
@@ -287,8 +297,9 @@ public typealias CompletionHandler = (Foundation.NSError?) -> Swift.Void
   @objc final public let dataDateTimeRange: FinvuSDK.DateTimeRange
   @objc final public let consentDataLifePeriod: FinvuSDK.ConsentDataLifePeriod
   @objc final public let consentDataFrequency: FinvuSDK.ConsentDataFrequency
+  @objc final public let statusLastUpdateTimestamp: Foundation.Date?
   @objc final public let fiTypes: [Swift.String]?
-  @objc public init(consentId: Swift.String?, consentHandle: Swift.String, financialInformationUser: FinvuSDK.FinancialInformationEntityInfo, consentPurposeInfo: FinvuSDK.ConsentPurposeInfo, consentDisplayDescriptions: [Swift.String], consentDateTimeRange: FinvuSDK.DateTimeRange, dataDateTimeRange: FinvuSDK.DateTimeRange, consentDataLifePeriod: FinvuSDK.ConsentDataLifePeriod, consentDataFrequency: FinvuSDK.ConsentDataFrequency, fiTypes: [Swift.String]?)
+  @objc public init(consentId: Swift.String?, consentHandle: Swift.String, statusLastUpdateTimestamp: Foundation.Date?, financialInformationUser: FinvuSDK.FinancialInformationEntityInfo, consentPurposeInfo: FinvuSDK.ConsentPurposeInfo, consentDisplayDescriptions: [Swift.String], consentDateTimeRange: FinvuSDK.DateTimeRange, dataDateTimeRange: FinvuSDK.DateTimeRange, consentDataLifePeriod: FinvuSDK.ConsentDataLifePeriod, consentDataFrequency: FinvuSDK.ConsentDataFrequency, fiTypes: [Swift.String]?)
   @objc deinit
 }
 @objc(FinvuDateTimeRange) @objcMembers final public class DateTimeRange : ObjectiveC.NSObject {
@@ -382,6 +393,7 @@ public typealias CompletionHandler = (Foundation.NSError?) -> Swift.Void
   @objc final public let consentHandle: Swift.String?
   @objc final public let consentId: Swift.String?
   @objc final public let consentStatus: Swift.String
+  @objc final public let statusLastUpdateTimestamp: Foundation.Date?
   @objc final public let financialInformationProvider: FinvuSDK.FinancialInformationEntityInfo?
   @objc final public let financialInformationUser: FinvuSDK.FinancialInformationEntityInfo?
   @objc final public let consentPurposeInfo: FinvuSDK.ConsentPurposeInfo
@@ -393,7 +405,7 @@ public typealias CompletionHandler = (Foundation.NSError?) -> Swift.Void
   @objc final public let accounts: [FinvuSDK.ConsentAccountDetails]
   final public let fiTypes: [Swift.String?]
   @objc final public let accountAggregator: FinvuSDK.AccountAggregator
-  public init(consentHandle: Swift.String?, consentId: Swift.String?, consentStatus: Swift.String, financialInformationProvider: FinvuSDK.FinancialInformationEntityInfo?, financialInformationUser: FinvuSDK.FinancialInformationEntityInfo?, consentPurposeInfo: FinvuSDK.ConsentPurposeInfo, consentDisplayDescriptions: [Swift.String], consentDateTimeRange: FinvuSDK.DateTimeRange, dataDateTimeRange: FinvuSDK.DateTimeRange, consentDataLifePeriod: FinvuSDK.ConsentDataLifePeriod, consentDataFrequency: FinvuSDK.ConsentDataFrequency, accounts: [FinvuSDK.ConsentAccountDetails], fiTypes: [Swift.String?], accountAggregator: FinvuSDK.AccountAggregator)
+  public init(consentHandle: Swift.String?, consentId: Swift.String?, consentStatus: Swift.String, financialInformationProvider: FinvuSDK.FinancialInformationEntityInfo?, financialInformationUser: FinvuSDK.FinancialInformationEntityInfo?, consentPurposeInfo: FinvuSDK.ConsentPurposeInfo, consentDisplayDescriptions: [Swift.String], consentDateTimeRange: FinvuSDK.DateTimeRange, dataDateTimeRange: FinvuSDK.DateTimeRange, consentDataLifePeriod: FinvuSDK.ConsentDataLifePeriod, consentDataFrequency: FinvuSDK.ConsentDataFrequency, accounts: [FinvuSDK.ConsentAccountDetails], fiTypes: [Swift.String?], accountAggregator: FinvuSDK.AccountAggregator, statusLastUpdateTimestamp: Foundation.Date?)
   @objc deinit
 }
 @objc(FinvuConsentAccountDetails) @objcMembers final public class ConsentAccountDetails : ObjectiveC.NSObject {
@@ -440,6 +452,9 @@ public typealias CompletionHandler = (Foundation.NSError?) -> Swift.Void
   @objc final public func denyAccountConsentRequest(consentDetail: FinvuSDK.ConsentRequestDetailInfo, completion: @escaping FinvuSDK.CompletionHandlerWithData<FinvuSDK.ProcessAccountConsentResponse>)
   @objc final public func revokeConsent(consent: FinvuSDK.UserConsentInfoDetails, accountAggregator: FinvuSDK.AccountAggregator?, fipDetails: FinvuSDK.FIPReference?, completion: @escaping FinvuSDK.CompletionHandler)
   @objc final public func getConsentHandleStatus(handleId: Swift.String, completion: @escaping FinvuSDK.CompletionHandlerWithData<FinvuSDK.ConsentHandleStatusResponse>)
+  @objc final public func fipsAllFIPOptions(completion: @escaping FinvuSDK.CompletionHandlerWithData<FinvuSDK.FIPSearchResponse>)
+  @objc final public func fetchFIPDetails(fipId: Swift.String, completion: @escaping FinvuSDK.CompletionHandlerWithData<FinvuSDK.FIPDetails>)
+  @objc final public func getEntityInfo(entityId: Swift.String, entityType: Swift.String, completion: @escaping FinvuSDK.CompletionHandlerWithData<FinvuSDK.EntityInfo>)
   @objc final public func logout(completion: @escaping FinvuSDK.CompletionHandler)
   @objc deinit
 }

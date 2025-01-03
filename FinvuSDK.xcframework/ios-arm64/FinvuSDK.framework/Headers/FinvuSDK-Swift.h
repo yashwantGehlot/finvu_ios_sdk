@@ -448,8 +448,9 @@ SWIFT_CLASS_NAMED("ConsentRequestDetailInfo")
 @property (nonatomic, readonly, strong) FinvuDateTimeRange * _Nonnull dataDateTimeRange;
 @property (nonatomic, readonly, strong) FinvuConsentDataLifePeriod * _Nonnull consentDataLifePeriod;
 @property (nonatomic, readonly, strong) FinvuConsentDataFrequency * _Nonnull consentDataFrequency;
+@property (nonatomic, readonly, copy) NSDate * _Nullable statusLastUpdateTimestamp;
 @property (nonatomic, readonly, copy) NSArray<NSString *> * _Nullable fiTypes;
-- (nonnull instancetype)initWithConsentId:(NSString * _Nullable)consentId consentHandle:(NSString * _Nonnull)consentHandle financialInformationUser:(FinvuFinancialInformationUserInfo * _Nonnull)financialInformationUser consentPurposeInfo:(FinvuConsentPurposeInfo * _Nonnull)consentPurposeInfo consentDisplayDescriptions:(NSArray<NSString *> * _Nonnull)consentDisplayDescriptions consentDateTimeRange:(FinvuDateTimeRange * _Nonnull)consentDateTimeRange dataDateTimeRange:(FinvuDateTimeRange * _Nonnull)dataDateTimeRange consentDataLifePeriod:(FinvuConsentDataLifePeriod * _Nonnull)consentDataLifePeriod consentDataFrequency:(FinvuConsentDataFrequency * _Nonnull)consentDataFrequency fiTypes:(NSArray<NSString *> * _Nullable)fiTypes OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithConsentId:(NSString * _Nullable)consentId consentHandle:(NSString * _Nonnull)consentHandle statusLastUpdateTimestamp:(NSDate * _Nullable)statusLastUpdateTimestamp financialInformationUser:(FinvuFinancialInformationUserInfo * _Nonnull)financialInformationUser consentPurposeInfo:(FinvuConsentPurposeInfo * _Nonnull)consentPurposeInfo consentDisplayDescriptions:(NSArray<NSString *> * _Nonnull)consentDisplayDescriptions consentDateTimeRange:(FinvuDateTimeRange * _Nonnull)consentDateTimeRange dataDateTimeRange:(FinvuDateTimeRange * _Nonnull)dataDateTimeRange consentDataLifePeriod:(FinvuConsentDataLifePeriod * _Nonnull)consentDataLifePeriod consentDataFrequency:(FinvuConsentDataFrequency * _Nonnull)consentDataFrequency fiTypes:(NSArray<NSString *> * _Nullable)fiTypes OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -547,13 +548,13 @@ SWIFT_CLASS_NAMED("FIPFiTypeIdentifier")
 SWIFT_CLASS_NAMED("FIPInfo")
 @interface FinvuFIPInfo : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull fipId;
-@property (nonatomic, readonly, copy) NSString * _Nonnull productName;
+@property (nonatomic, readonly, copy) NSString * _Nullable productName;
 @property (nonatomic, readonly, copy) NSArray<NSString *> * _Nonnull fipFitypes;
 @property (nonatomic, readonly, copy) NSString * _Nullable fipFsr;
 @property (nonatomic, readonly, copy) NSString * _Nullable productDesc;
 @property (nonatomic, readonly, copy) NSString * _Nullable productIconUri;
 @property (nonatomic, readonly) BOOL enabled;
-- (nonnull instancetype)initWithFipId:(NSString * _Nonnull)fipId productName:(NSString * _Nonnull)productName fipFitypes:(NSArray<NSString *> * _Nonnull)fipFitypes fipFsr:(NSString * _Nullable)fipFsr productDesc:(NSString * _Nullable)productDesc productIconUri:(NSString * _Nullable)productIconUri enabled:(BOOL)enabled OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFipId:(NSString * _Nonnull)fipId productName:(NSString * _Nullable)productName fipFitypes:(NSArray<NSString *> * _Nonnull)fipFitypes fipFsr:(NSString * _Nullable)fipFsr productDesc:(NSString * _Nullable)productDesc productIconUri:(NSString * _Nullable)productIconUri enabled:(BOOL)enabled OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -613,6 +614,22 @@ SWIFT_CLASS_NAMED("FinvuConsentInfo")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+SWIFT_CLASS_NAMED("FinvuDeviceBinding")
+@interface FinvuDeviceBinding : NSObject
+@property (nonatomic, readonly, copy) NSString * _Nonnull secret;
+- (nonnull instancetype)initWithSecret:(NSString * _Nonnull)secret OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS_NAMED("FinvuLoginResponse")
+@interface FinvuLoginResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @class NSError;
 @class FinvuLoginOtpReference;
 @class FinvuHandleInfo;
@@ -648,6 +665,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) FinvuManager * _Nonnul
 - (void)denyAccountConsentRequestWithConsentDetail:(FinvuConsentRequestDetailInfo * _Nonnull)consentDetail completion:(void (^ _Nonnull)(FinvuProcessAccountConsentResponse * _Nullable, NSError * _Nullable))completion;
 - (void)revokeConsentWithConsent:(FinvuUserConsentInfoDetails * _Nonnull)consent accountAggregator:(FinvuAccountAggregator * _Nullable)accountAggregator fipDetails:(FinvuFIPReference * _Nullable)fipDetails completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
 - (void)getConsentHandleStatusWithHandleId:(NSString * _Nonnull)handleId completion:(void (^ _Nonnull)(FinvuConsentHandleStatusResponse * _Nullable, NSError * _Nullable))completion;
+- (void)fipsAllFIPOptionsWithCompletion:(void (^ _Nonnull)(FinvuFIPSearchResponse * _Nullable, NSError * _Nullable))completion;
+- (void)fetchFIPDetailsWithFipId:(NSString * _Nonnull)fipId completion:(void (^ _Nonnull)(FinvuFIPDetails * _Nullable, NSError * _Nullable))completion;
+- (void)getEntityInfoWithEntityId:(NSString * _Nonnull)entityId entityType:(NSString * _Nonnull)entityType completion:(void (^ _Nonnull)(FinvuEntityInfo * _Nullable, NSError * _Nullable))completion;
 - (void)logoutWithCompletion:(void (^ _Nonnull)(NSError * _Nullable))completion;
 @end
 
@@ -783,6 +803,7 @@ SWIFT_CLASS_NAMED("UserConsentDetails")
 @property (nonatomic, readonly, copy) NSString * _Nullable consentHandle;
 @property (nonatomic, readonly, copy) NSString * _Nullable consentId;
 @property (nonatomic, readonly, copy) NSString * _Nonnull consentStatus;
+@property (nonatomic, readonly, copy) NSDate * _Nullable statusLastUpdateTimestamp;
 @property (nonatomic, readonly, strong) FinvuFinancialInformationUserInfo * _Nullable financialInformationProvider;
 @property (nonatomic, readonly, strong) FinvuFinancialInformationUserInfo * _Nullable financialInformationUser;
 @property (nonatomic, readonly, strong) FinvuConsentPurposeInfo * _Nonnull consentPurposeInfo;
