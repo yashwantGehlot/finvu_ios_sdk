@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "FinvuSDK",
+    "printedName": "FinvuSDK",
     "children": [
       {
         "kind": "Import",
@@ -200,6 +200,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -436,6 +450,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -711,6 +739,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -961,6 +1003,9 @@
             "moduleName": "FinvuSDK",
             "static": true,
             "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -1002,6 +1047,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1876,6 +1935,9 @@
             "moduleName": "FinvuSDK",
             "static": true,
             "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -1917,6 +1979,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2127,6 +2203,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2302,6 +2392,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2505,6 +2609,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2680,6 +2798,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2880,6 +3012,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3057,6 +3203,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3232,6 +3392,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3523,6 +3697,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3722,6 +3910,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3979,6 +4181,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4398,6 +4614,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4653,6 +4883,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -5184,6 +5428,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -5383,6 +5641,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -6018,6 +6290,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6273,6 +6559,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -6532,6 +6832,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6763,6 +7077,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -7122,6 +7450,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -7321,6 +7663,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -7736,6 +8092,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -7911,6 +8281,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -8112,6 +8496,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -8527,6 +8925,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -8750,6 +9162,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -9629,6 +10055,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -9852,6 +10292,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -10583,6 +11037,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -10758,6 +11226,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -11617,6 +12099,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -11848,6 +12344,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -12148,6 +12658,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -12452,6 +12976,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -12683,6 +13221,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -12918,6 +13470,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -13117,6 +13683,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -13424,6 +14004,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -13681,6 +14275,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -13880,6 +14488,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -14467,6 +15089,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -15052,6 +15688,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -15523,6 +16173,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -16699,6 +17363,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -17180,6 +17858,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -17311,6 +18003,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -17488,6 +18194,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -17724,6 +18444,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -18386,7 +19122,7 @@
           {
             "kind": "Function",
             "name": "discoverAccounts",
-            "printedName": "discoverAccounts(fipDetails:fiTypes:identifiers:completion:)",
+            "printedName": "discoverAccounts(fipId:fiTypes:identifiers:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -18395,9 +19131,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "FIPDetails",
-                "printedName": "FinvuSDK.FIPDetails",
-                "usr": "c:@M@FinvuSDK@objc(cs)FinvuFIPDetails"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -18476,10 +19212,114 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@FinvuSDK@objc(cs)FinvuManager(im)discoverAccountsWithFipDetails:fiTypes:identifiers:completion:",
-            "mangledName": "$s8FinvuSDK0A7ManagerC16discoverAccounts10fipDetails7fiTypes11identifiers10completionyAA10FIPDetailsC_SaySSGSayAA18TypeIdentifierInfoCGyAA010DiscoveredE8ResponseCSg_So7NSErrorCSgtctF",
+            "usr": "c:@M@FinvuSDK@objc(cs)FinvuManager(im)discoverAccountsWithFipId:fiTypes:identifiers:completion:",
+            "mangledName": "$s8FinvuSDK0A7ManagerC16discoverAccounts5fipId7fiTypes11identifiers10completionySS_SaySSGSayAA18TypeIdentifierInfoCGyAA010DiscoveredE8ResponseCSg_So7NSErrorCSgtctF",
             "moduleName": "FinvuSDK",
-            "objc_name": "discoverAccountsWithFipDetails:fiTypes:identifiers:completion:",
+            "objc_name": "discoverAccountsWithFipId:fiTypes:identifiers:completion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "discoverAccountsAsync",
+            "printedName": "discoverAccountsAsync(fipId:fiTypes:identifiers:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[FinvuSDK.TypeIdentifierInfo]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TypeIdentifierInfo",
+                    "printedName": "FinvuSDK.TypeIdentifierInfo",
+                    "usr": "c:@M@FinvuSDK@objc(cs)FinvuTypeIdentifierInfo"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FinvuSDK.DiscoveredAccountsResponse?, Foundation.NSError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(FinvuSDK.DiscoveredAccountsResponse?, Foundation.NSError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "FinvuSDK.DiscoveredAccountsResponse?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DiscoveredAccountsResponse",
+                            "printedName": "FinvuSDK.DiscoveredAccountsResponse",
+                            "usr": "c:@M@FinvuSDK@objc(cs)FinvuDiscoveredAccountsResponse"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FinvuSDK@objc(cs)FinvuManager(im)discoverAccountsAsyncWithFipId:fiTypes:identifiers:completion:",
+            "mangledName": "$s8FinvuSDK0A7ManagerC21discoverAccountsAsync5fipId7fiTypes11identifiers10completionySS_SaySSGSayAA18TypeIdentifierInfoCGyAA010DiscoveredE8ResponseCSg_So7NSErrorCSgtctF",
+            "moduleName": "FinvuSDK",
+            "objc_name": "discoverAccountsAsyncWithFipId:fiTypes:identifiers:completion:",
             "declAttributes": [
               "Final",
               "AccessControl",
@@ -19356,6 +20196,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -19475,13 +20329,6 @@
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 856,
-      "length": 12,
-      "value": "\"FipDetails\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
       "offset": 1646,
       "length": 5,
       "value": "\"ver\""
@@ -19510,611 +20357,289 @@
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 1646,
-      "length": 5,
-      "value": "\"ver\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 1704,
-      "length": 7,
-      "value": "\"txnid\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 1736,
-      "length": 10,
-      "value": "\"Customer\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 1775,
-      "length": 12,
-      "value": "\"FIPDetails\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 2612,
+      "offset": 2592,
       "length": 13,
       "value": "\"Identifiers\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 2612,
-      "length": 13,
-      "value": "\"Identifiers\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 2979,
+      "offset": 2959,
       "length": 5,
       "value": "\"ver\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 3037,
+      "offset": 3017,
       "length": 7,
       "value": "\"txnid\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 3079,
+      "offset": 3059,
       "length": 20,
       "value": "\"DiscoveredAccounts\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 2979,
-      "length": 5,
-      "value": "\"ver\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 3037,
-      "length": 7,
-      "value": "\"txnid\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 3079,
-      "length": 20,
-      "value": "\"DiscoveredAccounts\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 3353,
+      "offset": 3333,
       "length": 9,
       "value": "\"accType\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 3401,
+      "offset": 3381,
       "length": 14,
       "value": "\"accRefNumber\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 3451,
+      "offset": 3431,
       "length": 17,
       "value": "\"maskedAccNumber\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 3491,
+      "offset": 3471,
       "length": 8,
       "value": "\"FIType\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 3353,
-      "length": 9,
-      "value": "\"accType\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 3401,
-      "length": 14,
-      "value": "\"accRefNumber\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 3451,
-      "length": 17,
-      "value": "\"maskedAccNumber\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 3491,
-      "length": 8,
-      "value": "\"FIType\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 3824,
+      "offset": 3804,
       "length": 5,
       "value": "\"ver\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 3882,
+      "offset": 3862,
       "length": 7,
       "value": "\"txnid\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 3918,
+      "offset": 3898,
       "length": 12,
       "value": "\"FIPDetails\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 3965,
+      "offset": 3945,
       "length": 10,
       "value": "\"Customer\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 3824,
-      "length": 5,
-      "value": "\"ver\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 3882,
-      "length": 7,
-      "value": "\"txnid\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 3918,
-      "length": 12,
-      "value": "\"FIPDetails\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 3965,
-      "length": 10,
-      "value": "\"Customer\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 4511,
+      "offset": 4491,
       "length": 10,
       "value": "\"Accounts\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 4511,
-      "length": 10,
-      "value": "\"Accounts\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 4976,
+      "offset": 4956,
       "length": 5,
       "value": "\"ver\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 5075,
+      "offset": 5055,
       "length": 7,
       "value": "\"txnid\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 5116,
+      "offset": 5096,
       "length": 19,
       "value": "\"AuthenticatorType\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 5167,
+      "offset": 5147,
       "length": 11,
       "value": "\"RefNumber\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 4976,
+      "offset": 5453,
       "length": 5,
       "value": "\"ver\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 5075,
+      "offset": 5511,
       "length": 7,
       "value": "\"txnid\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 5116,
-      "length": 19,
-      "value": "\"AuthenticatorType\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 5167,
-      "length": 11,
-      "value": "\"RefNumber\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 5473,
-      "length": 5,
-      "value": "\"ver\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 5531,
-      "length": 7,
-      "value": "\"txnid\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 5570,
+      "offset": 5550,
       "length": 26,
       "value": "\"AccountsLinkingRefNumber\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 5473,
+      "offset": 6229,
       "length": 5,
       "value": "\"ver\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 5531,
+      "offset": 6328,
       "length": 7,
       "value": "\"txnid\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 5570,
-      "length": 26,
-      "value": "\"AccountsLinkingRefNumber\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 6249,
-      "length": 5,
-      "value": "\"ver\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 6348,
-      "length": 7,
-      "value": "\"txnid\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 6392,
+      "offset": 6372,
       "length": 16,
       "value": "\"AccLinkDetails\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 6249,
-      "length": 5,
-      "value": "\"ver\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 6348,
-      "length": 7,
-      "value": "\"txnid\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 6392,
-      "length": 16,
-      "value": "\"AccLinkDetails\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 6694,
+      "offset": 6674,
       "length": 15,
       "value": "\"linkRefNumber\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 6748,
+      "offset": 6728,
       "length": 14,
       "value": "\"accRefNumber\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 6694,
-      "length": 15,
-      "value": "\"linkRefNumber\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 6748,
-      "length": 14,
-      "value": "\"accRefNumber\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 7128,
+      "offset": 7108,
       "length": 16,
       "value": "\"LinkedAccounts\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 7128,
-      "length": 16,
-      "value": "\"LinkedAccounts\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 7682,
+      "offset": 7662,
       "length": 17,
       "value": "\"maskedAccNumber\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 7738,
+      "offset": 7718,
       "length": 14,
       "value": "\"accRefNumber\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 7788,
+      "offset": 7768,
       "length": 15,
       "value": "\"linkRefNumber\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 7853,
+      "offset": 7833,
       "length": 8,
       "value": "\"FIType\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 7889,
+      "offset": 7869,
       "length": 9,
       "value": "\"accType\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 7974,
+      "offset": 7954,
       "length": 19,
       "value": "\"AuthenticatorType\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 7682,
-      "length": 17,
-      "value": "\"maskedAccNumber\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 7738,
-      "length": 14,
-      "value": "\"accRefNumber\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 7788,
-      "length": 15,
-      "value": "\"linkRefNumber\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 7853,
-      "length": 8,
-      "value": "\"FIType\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 7889,
-      "length": 9,
-      "value": "\"accType\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 7974,
-      "length": 19,
-      "value": "\"AuthenticatorType\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 8319,
+      "offset": 8299,
       "length": 5,
       "value": "\"ver\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 8377,
+      "offset": 8357,
       "length": 7,
       "value": "\"txnid\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 8423,
+      "offset": 8403,
       "length": 9,
       "value": "\"Account\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 8461,
+      "offset": 8441,
       "length": 12,
       "value": "\"FIPDetails\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 8319,
-      "length": 5,
-      "value": "\"ver\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 8377,
-      "length": 7,
-      "value": "\"txnid\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 8423,
-      "length": 9,
-      "value": "\"Account\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 8461,
-      "length": 12,
-      "value": "\"FIPDetails\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 9387,
+      "offset": 9367,
       "length": 15,
       "value": "\"linkRefNumber\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 9441,
+      "offset": 9421,
       "length": 18,
       "value": "\"accountRefNumber\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 9387,
-      "length": 15,
-      "value": "\"linkRefNumber\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 9441,
-      "length": 18,
-      "value": "\"accountRefNumber\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 9963,
+      "offset": 9943,
       "length": 5,
       "value": "\"ver\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 9963,
-      "length": 5,
-      "value": "\"ver\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 10134,
+      "offset": 10114,
       "length": 11,
       "value": "\"mobileNum\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
       "kind": "StringLiteral",
-      "offset": 10134,
+      "offset": 10416,
       "length": 11,
       "value": "\"mobileNum\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 10436,
-      "length": 11,
-      "value": "\"mobileNum\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/AccountDiscovery.swift",
-      "kind": "StringLiteral",
-      "offset": 10436,
-      "length": 11,
-      "value": "\"mobileNum\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
-      "kind": "StringLiteral",
-      "offset": 300,
-      "length": 14,
-      "value": "\"deviceSecret\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
@@ -20133,161 +20658,77 @@
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
-      "offset": 501,
-      "length": 8,
-      "value": "\"secret\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
-      "kind": "StringLiteral",
-      "offset": 774,
+      "offset": 773,
       "length": 23,
       "value": "\"deviceSimBindingValid\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
-      "offset": 774,
-      "length": 23,
-      "value": "\"deviceSimBindingValid\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
-      "kind": "StringLiteral",
-      "offset": 1796,
+      "offset": 1793,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
-      "offset": 1796,
-      "length": 7,
-      "value": "\"token\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
-      "kind": "StringLiteral",
-      "offset": 2217,
+      "offset": 2214,
       "length": 13,
       "value": "\"oldPassword\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
-      "offset": 2258,
+      "offset": 2255,
       "length": 13,
       "value": "\"newPassword\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
-      "offset": 2303,
+      "offset": 2300,
       "length": 12,
       "value": "\"rePassword\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
-      "offset": 2217,
-      "length": 13,
-      "value": "\"oldPassword\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
-      "kind": "StringLiteral",
-      "offset": 2258,
-      "length": 13,
-      "value": "\"newPassword\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
-      "kind": "StringLiteral",
-      "offset": 2303,
-      "length": 12,
-      "value": "\"rePassword\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
-      "kind": "StringLiteral",
-      "offset": 2774,
+      "offset": 2771,
       "length": 11,
       "value": "\"mobileNum\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
-      "offset": 2774,
+      "offset": 3330,
       "length": 11,
       "value": "\"mobileNum\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
-      "offset": 3333,
+      "offset": 3692,
       "length": 11,
       "value": "\"mobileNum\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
-      "offset": 3333,
-      "length": 11,
-      "value": "\"mobileNum\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
-      "kind": "StringLiteral",
-      "offset": 3695,
-      "length": 11,
-      "value": "\"mobileNum\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
-      "kind": "StringLiteral",
-      "offset": 3695,
-      "length": 11,
-      "value": "\"mobileNum\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
-      "kind": "StringLiteral",
-      "offset": 4172,
+      "offset": 4169,
       "length": 8,
       "value": "\"userId\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
-      "offset": 4172,
-      "length": 8,
-      "value": "\"userId\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
-      "kind": "StringLiteral",
-      "offset": 4490,
+      "offset": 4487,
       "length": 10,
       "value": "\"mobileno\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
-      "offset": 4554,
-      "length": 12,
-      "value": "\"repassword\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
-      "kind": "StringLiteral",
-      "offset": 4490,
-      "length": 10,
-      "value": "\"mobileno\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
-      "kind": "StringLiteral",
-      "offset": 4554,
+      "offset": 4551,
       "length": 12,
       "value": "\"repassword\""
     },
@@ -20392,107 +20833,9 @@
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
-      "offset": 1721,
-      "length": 5,
-      "value": "\"ver\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 1756,
-      "length": 7,
-      "value": "\"txnid\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 1879,
-      "length": 27,
-      "value": "\"statusLastupdateTimestamp\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 1940,
-      "length": 4,
-      "value": "\"AA\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 1964,
-      "length": 5,
-      "value": "\"FIU\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 1990,
-      "length": 6,
-      "value": "\"User\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 2020,
-      "length": 9,
-      "value": "\"Purpose\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 2191,
-      "length": 19,
-      "value": "\"DataDateTimeRange\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 2235,
-      "length": 10,
-      "value": "\"DataLife\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 2271,
-      "length": 11,
-      "value": "\"Frequency\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 2309,
-      "length": 12,
-      "value": "\"DataFilter\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 2394,
-      "length": 15,
-      "value": "\"ConsentHandle\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
       "offset": 2900,
       "length": 10,
       "value": "\"Category\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 2900,
-      "length": 10,
-      "value": "\"Category\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 3244,
-      "length": 10,
-      "value": "\"operator\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
@@ -20521,41 +20864,6 @@
       "offset": 3738,
       "length": 12,
       "value": "\"FIPDetails\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 3626,
-      "length": 5,
-      "value": "\"ver\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 3706,
-      "length": 5,
-      "value": "\"FIU\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 3738,
-      "length": 12,
-      "value": "\"FIPDetails\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 5677,
-      "length": 5,
-      "value": "\"FIP\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 5707,
-      "length": 10,
-      "value": "\"Accounts\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
@@ -20609,170 +20917,9 @@
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
-      "offset": 6062,
-      "length": 15,
-      "value": "\"linkRefNumber\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 6105,
-      "length": 9,
-      "value": "\"accType\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 6153,
-      "length": 14,
-      "value": "\"accRefNumber\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 6203,
-      "length": 17,
-      "value": "\"maskedAccNumber\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 6243,
-      "length": 8,
-      "value": "\"FIType\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
       "offset": 8161,
       "length": 12,
       "value": "\"FIPDetails\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 8161,
-      "length": 12,
-      "value": "\"FIPDetails\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 9604,
-      "length": 5,
-      "value": "\"ver\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 9639,
-      "length": 7,
-      "value": "\"txnid\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 9786,
-      "length": 27,
-      "value": "\"statusLastupdateTimestamp\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 9833,
-      "length": 5,
-      "value": "\"FIP\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 9872,
-      "length": 4,
-      "value": "\"AA\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 9896,
-      "length": 5,
-      "value": "\"FIU\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 9922,
-      "length": 6,
-      "value": "\"User\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 9953,
-      "length": 10,
-      "value": "\"Accounts\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 9990,
-      "length": 12,
-      "value": "\"ConsentUse\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 10029,
-      "length": 12,
-      "value": "\"DataAccess\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 10065,
-      "length": 9,
-      "value": "\"Purpose\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 10100,
-      "length": 11,
-      "value": "\"Signature\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 10273,
-      "length": 19,
-      "value": "\"DataDateTimeRange\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 10317,
-      "length": 10,
-      "value": "\"DataLife\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 10353,
-      "length": 11,
-      "value": "\"Frequency\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 10391,
-      "length": 12,
-      "value": "\"DataFilter\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 10476,
-      "length": 15,
-      "value": "\"ConsentHandle\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
@@ -20931,55 +21078,6 @@
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
-      "offset": 10788,
-      "length": 8,
-      "value": "\"FIType\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 10843,
-      "length": 9,
-      "value": "\"accType\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 10891,
-      "length": 14,
-      "value": "\"accRefNumber\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 10941,
-      "length": 17,
-      "value": "\"maskedAccNumber\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 10994,
-      "length": 15,
-      "value": "\"linkRefNumber\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12005,
-      "length": 9,
-      "value": "\"ONETIME\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12035,
-      "length": 10,
-      "value": "\"PERIODIC\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
       "offset": 12005,
       "length": 9,
       "value": "\"ONETIME\""
@@ -21015,34 +21113,6 @@
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
-      "offset": 12105,
-      "length": 7,
-      "value": "\"MONTH\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12129,
-      "length": 6,
-      "value": "\"YEAR\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12151,
-      "length": 5,
-      "value": "\"DAY\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12214,
-      "length": 8,
-      "value": "\"ACCEPT\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
       "offset": 12214,
       "length": 8,
       "value": "\"ACCEPT\""
@@ -21074,55 +21144,6 @@
       "offset": 12352,
       "length": 8,
       "value": "\"STREAM\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12278,
-      "length": 7,
-      "value": "\"QUERY\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12302,
-      "length": 6,
-      "value": "\"VIEW\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12326,
-      "length": 7,
-      "value": "\"STORE\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12352,
-      "length": 8,
-      "value": "\"STREAM\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12437,
-      "length": 14,
-      "value": "\"TRANSACTIONS\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12471,
-      "length": 9,
-      "value": "\"PROFILE\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12500,
-      "length": 9,
-      "value": "\"SUMMARY\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
@@ -21281,139 +21302,6 @@
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
-      "offset": 12579,
-      "length": 5,
-      "value": "\"AIF\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12602,
-      "length": 7,
-      "value": "\"BONDS\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12625,
-      "length": 5,
-      "value": "\"CIS\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12645,
-      "length": 4,
-      "value": "\"CP\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12672,
-      "length": 12,
-      "value": "\"DEBENTURES\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12704,
-      "length": 9,
-      "value": "\"DEPOSIT\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12734,
-      "length": 10,
-      "value": "\"EQUITIES\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12760,
-      "length": 5,
-      "value": "\"ETF\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12792,
-      "length": 17,
-      "value": "\"GOVT_SECURITIES\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12825,
-      "length": 5,
-      "value": "\"IDR\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12860,
-      "length": 20,
-      "value": "\"INSURANCE_POLICIES\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12898,
-      "length": 7,
-      "value": "\"INVIT\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12929,
-      "length": 14,
-      "value": "\"MUTUAL_FUNDS\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12959,
-      "length": 5,
-      "value": "\"NPS\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 12982,
-      "length": 7,
-      "value": "\"OTHER\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 13018,
-      "length": 19,
-      "value": "\"RECURRING_DEPOSIT\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 13054,
-      "length": 6,
-      "value": "\"REIT\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 13076,
-      "length": 5,
-      "value": "\"SIP\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 13105,
-      "length": 14,
-      "value": "\"TERM-DEPOSIT\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
       "offset": 13188,
       "length": 17,
       "value": "\"TRANSACTIONTYPE\""
@@ -21424,62 +21312,6 @@
       "offset": 13235,
       "length": 19,
       "value": "\"TRANSACTIONAMOUNT\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 13188,
-      "length": 17,
-      "value": "\"TRANSACTIONTYPE\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 13235,
-      "length": 19,
-      "value": "\"TRANSACTIONAMOUNT\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 13317,
-      "length": 3,
-      "value": "\"=\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 13341,
-      "length": 4,
-      "value": "\"!=\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 13365,
-      "length": 3,
-      "value": "\">\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 13389,
-      "length": 3,
-      "value": "\"<\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 13423,
-      "length": 4,
-      "value": "\">=\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 13455,
-      "length": 4,
-      "value": "\"<=\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
@@ -21617,132 +21449,6 @@
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
       "kind": "StringLiteral",
-      "offset": 14468,
-      "length": 5,
-      "value": "\"ver\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 14503,
-      "length": 7,
-      "value": "\"txnid\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 14797,
-      "length": 4,
-      "value": "\"AA\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 14821,
-      "length": 5,
-      "value": "\"FIU\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 14847,
-      "length": 6,
-      "value": "\"User\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 14880,
-      "length": 12,
-      "value": "\"FIPDetails\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 14919,
-      "length": 12,
-      "value": "\"ConsentUse\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 14955,
-      "length": 9,
-      "value": "\"Purpose\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 14998,
-      "length": 19,
-      "value": "\"DataDateTimeRange\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 15042,
-      "length": 10,
-      "value": "\"DataLife\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 15078,
-      "length": 11,
-      "value": "\"Frequency\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 15116,
-      "length": 12,
-      "value": "\"DataFilter\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 15154,
-      "length": 11,
-      "value": "\"Signature\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 18590,
-      "length": 19,
-      "value": "\"WEALTH_MANAGEMENT\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 18646,
-      "length": 28,
-      "value": "\"CUSTOMER_SPENDING_PATTERNS\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 18706,
-      "length": 22,
-      "value": "\"AGGREGATED_STATEMENT\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 18769,
-      "length": 33,
-      "value": "\"CONSENT_FOR_MONITORING_ACCOUNTS\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 18829,
-      "length": 18,
-      "value": "\"ONE_TIME_CONSENT\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
       "offset": 18590,
       "length": 19,
       "value": "\"WEALTH_MANAGEMENT\""
@@ -21790,20 +21496,6 @@
       "value": "\"Accounts\""
     },
     {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 20185,
-      "length": 5,
-      "value": "\"FIP\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 20215,
-      "length": 10,
-      "value": "\"Accounts\""
-    },
-    {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
       "kind": "IntegerLiteral",
       "offset": 211,
@@ -21872,468 +21564,6 @@
       "offset": 525,
       "length": 4,
       "value": "9999"
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "IntegerLiteral",
-      "offset": 211,
-      "length": 4,
-      "value": "1001"
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "IntegerLiteral",
-      "offset": 243,
-      "length": 4,
-      "value": "1002"
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "IntegerLiteral",
-      "offset": 284,
-      "length": 4,
-      "value": "1003"
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "IntegerLiteral",
-      "offset": 328,
-      "length": 4,
-      "value": "1004"
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "IntegerLiteral",
-      "offset": 367,
-      "length": 4,
-      "value": "1005"
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "IntegerLiteral",
-      "offset": 403,
-      "length": 4,
-      "value": "8000"
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "IntegerLiteral",
-      "offset": 442,
-      "length": 4,
-      "value": "8001"
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "IntegerLiteral",
-      "offset": 473,
-      "length": 4,
-      "value": "8002"
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "IntegerLiteral",
-      "offset": 496,
-      "length": 4,
-      "value": "9000"
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "IntegerLiteral",
-      "offset": 525,
-      "length": 4,
-      "value": "9999"
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "IntegerLiteral",
-      "offset": 211,
-      "length": 4,
-      "value": "1001"
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "IntegerLiteral",
-      "offset": 243,
-      "length": 4,
-      "value": "1002"
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "IntegerLiteral",
-      "offset": 284,
-      "length": 4,
-      "value": "1003"
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "IntegerLiteral",
-      "offset": 328,
-      "length": 4,
-      "value": "1004"
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "IntegerLiteral",
-      "offset": 367,
-      "length": 4,
-      "value": "1005"
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "IntegerLiteral",
-      "offset": 403,
-      "length": 4,
-      "value": "8000"
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "IntegerLiteral",
-      "offset": 442,
-      "length": 4,
-      "value": "8001"
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "IntegerLiteral",
-      "offset": 473,
-      "length": 4,
-      "value": "8002"
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "IntegerLiteral",
-      "offset": 496,
-      "length": 4,
-      "value": "9000"
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "IntegerLiteral",
-      "offset": 525,
-      "length": 4,
-      "value": "9999"
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 591,
-      "length": 13,
-      "value": "\"FinvuSDK.ConsentReport\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 776,
-      "length": 10,
-      "value": "\"FinvuSDK.HandleInfo\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 959,
-      "length": 12,
-      "value": "\"FinvuSDK.ForgotHandle\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 1158,
-      "length": 17,
-      "value": "\"FinvuSDK.LoginOtpReference\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 1361,
-      "length": 18,
-      "value": "\"FinvuSDK.FinvuLoginResponse\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 1600,
-      "length": 18,
-      "value": "\"FinvuSDK.FinvuDeviceBinding\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 1807,
-      "length": 27,
-      "value": "\"FinvuSDK.ConsentHandleStatusResponse\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 2003,
-      "length": 8,
-      "value": "\"FinvuSDK.UserInfo\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 2375,
-      "length": 22,
-      "value": "\"FinvuSDK.ConsentHistoryResponse\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 2631,
-      "length": 14,
-      "value": "\"FinvuSDK.ConsentHistory\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 2955,
-      "length": 26,
-      "value": "\"FinvuSDK.AccountDataRequestResponse\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 3479,
-      "length": 24,
-      "value": "\"FinvuSDK.AccountDataFetchResponse\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 3816,
-      "length": 19,
-      "value": "\"FinvuSDK.FIDecryptedDataInfo\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 4614,
-      "length": 17,
-      "value": "\"FinvuSDK.FIPSearchResponse\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 4834,
-      "length": 7,
-      "value": "\"FinvuSDK.FIPInfo\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 5565,
-      "length": 10,
-      "value": "\"FinvuSDK.FIPDetails\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 5891,
-      "length": 19,
-      "value": "\"FinvuSDK.FIPFiTypeIdentifier\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 6203,
-      "length": 14,
-      "value": "\"FinvuSDK.TypeIdentifier\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 6473,
-      "length": 18,
-      "value": "\"FinvuSDK.TypeIdentifierInfo\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 6837,
-      "length": 26,
-      "value": "\"FinvuSDK.DiscoveredAccountsResponse\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 7093,
-      "length": 21,
-      "value": "\"FinvuSDK.DiscoveredAccountInfo\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 7732,
-      "length": 30,
-      "value": "\"FinvuSDK.AccountLinkingRequestReference\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 7994,
-      "length": 25,
-      "value": "\"FinvuSDK.ConfirmAccountLinkingInfo\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 8262,
-      "length": 17,
-      "value": "\"FinvuSDK.LinkedAccountInfo\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 8852,
-      "length": 22,
-      "value": "\"FinvuSDK.LinkedAccountsResponse\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 9140,
-      "length": 24,
-      "value": "\"FinvuSDK.LinkedAccountDetailsInfo\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 10627,
-      "length": 27,
-      "value": "\"FinvuSDK.FetchOfflineMessageResponse\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 10878,
-      "length": 18,
-      "value": "\"FinvuSDK.OfflineMessageInfo\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 12215,
-      "length": 28,
-      "value": "\"FinvuSDK.ConsentRequestDetailResponse\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 12470,
-      "length": 24,
-      "value": "\"FinvuSDK.ConsentRequestDetailInfo\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 14284,
-      "length": 13,
-      "value": "\"FinvuSDK.DateTimeRange\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 14527,
-      "length": 21,
-      "value": "\"FinvuSDK.ConsentDataLifePeriod\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 14806,
-      "length": 20,
-      "value": "\"FinvuSDK.ConsentDataFrequency\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 15092,
-      "length": 30,
-      "value": "\"FinvuSDK.FinancialInformationEntityInfo\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 15357,
-      "length": 18,
-      "value": "\"FinvuSDK.ConsentPurposeInfo\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 15632,
-      "length": 30,
-      "value": "\"FinvuSDK.PendingConsentRequestsResponse\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 15902,
-      "length": 29,
-      "value": "\"FinvuSDK.ProcessAccountConsentResponse\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 16271,
-      "length": 16,
-      "value": "\"FinvuSDK.FinvuConsentInfo\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 16558,
-      "length": 19,
-      "value": "\"FinvuSDK.UserConsentResponse\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 16801,
-      "length": 15,
-      "value": "\"FinvuSDK.UserConsentInfo\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 17878,
-      "length": 22,
-      "value": "\"FinvuSDK.UserConsentInfoDetails\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 18927,
-      "length": 10,
-      "value": "\"FinvuSDK.EntityInfo\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 19563,
-      "length": 18,
-      "value": "\"FinvuSDK.UserConsentDetails\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 22029,
-      "length": 21,
-      "value": "\"FinvuSDK.ConsentAccountDetails\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 22869,
-      "length": 12,
-      "value": "\"FinvuSDK.FIPReference\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/Finvu.swift",
-      "kind": "StringLiteral",
-      "offset": 23127,
-      "length": 17,
-      "value": "\"FinvuSDK.AccountAggregator\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/FinvuApi.swift",
@@ -22478,58 +21708,9 @@
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
-      "offset": 539,
-      "length": 10,
-      "value": "\"UserInfo\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
-      "kind": "StringLiteral",
       "offset": 896,
       "length": 10,
       "value": "\"mobileNo\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
-      "kind": "StringLiteral",
-      "offset": 896,
-      "length": 10,
-      "value": "\"mobileNo\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
-      "kind": "StringLiteral",
-      "offset": 1388,
-      "length": 5,
-      "value": "\"ver\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
-      "kind": "StringLiteral",
-      "offset": 1446,
-      "length": 7,
-      "value": "\"txnid\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
-      "kind": "StringLiteral",
-      "offset": 1481,
-      "length": 13,
-      "value": "\"FIDataRange\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
-      "kind": "StringLiteral",
-      "offset": 1518,
-      "length": 9,
-      "value": "\"Consent\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
-      "kind": "StringLiteral",
-      "offset": 1555,
-      "length": 13,
-      "value": "\"KeyMaterial\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
@@ -22583,41 +21764,6 @@
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
-      "offset": 2126,
-      "length": 11,
-      "value": "\"SessionID\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
-      "kind": "StringLiteral",
-      "offset": 2163,
-      "length": 11,
-      "value": "\"ConsentID\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
-      "kind": "StringLiteral",
-      "offset": 2599,
-      "length": 11,
-      "value": "\"cryptoAlg\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
-      "kind": "StringLiteral",
-      "offset": 2677,
-      "length": 13,
-      "value": "\"DHPublicKey\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
-      "kind": "StringLiteral",
-      "offset": 2712,
-      "length": 7,
-      "value": "\"Nonce\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
-      "kind": "StringLiteral",
       "offset": 2599,
       "length": 11,
       "value": "\"cryptoAlg\""
@@ -22649,34 +21795,6 @@
       "offset": 2967,
       "length": 10,
       "value": "\"KeyValue\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
-      "kind": "StringLiteral",
-      "offset": 2930,
-      "length": 12,
-      "value": "\"Parameters\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
-      "kind": "StringLiteral",
-      "offset": 2967,
-      "length": 10,
-      "value": "\"KeyValue\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
-      "kind": "StringLiteral",
-      "offset": 3335,
-      "length": 5,
-      "value": "\"ver\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
-      "kind": "StringLiteral",
-      "offset": 3393,
-      "length": 7,
-      "value": "\"txnid\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
@@ -22716,27 +21834,6 @@
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
       "kind": "StringLiteral",
-      "offset": 3780,
-      "length": 5,
-      "value": "\"ver\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
-      "kind": "StringLiteral",
-      "offset": 3838,
-      "length": 7,
-      "value": "\"txnid\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
-      "kind": "StringLiteral",
-      "offset": 3864,
-      "length": 4,
-      "value": "\"FI\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
-      "kind": "StringLiteral",
       "offset": 4070,
       "length": 7,
       "value": "\"fipID\""
@@ -22747,48 +21844,6 @@
       "offset": 4123,
       "length": 13,
       "value": "\"KeyMaterial\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
-      "kind": "StringLiteral",
-      "offset": 4070,
-      "length": 7,
-      "value": "\"fipID\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
-      "kind": "StringLiteral",
-      "offset": 4123,
-      "length": 13,
-      "value": "\"KeyMaterial\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
-      "kind": "StringLiteral",
-      "offset": 4459,
-      "length": 15,
-      "value": "\"linkRefNumber\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
-      "kind": "StringLiteral",
-      "offset": 4513,
-      "length": 14,
-      "value": "\"accRefNumber\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
-      "kind": "StringLiteral",
-      "offset": 4563,
-      "length": 17,
-      "value": "\"maskedAccNumber\""
-    },
-    {
-      "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
-      "kind": "StringLiteral",
-      "offset": 4628,
-      "length": 9,
-      "value": "\"accType\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/User.swift",
