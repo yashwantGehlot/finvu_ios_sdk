@@ -20687,77 +20687,77 @@
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
-      "offset": 773,
+      "offset": 774,
       "length": 23,
       "value": "\"deviceSimBindingValid\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
-      "offset": 1794,
+      "offset": 1795,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
-      "offset": 2215,
+      "offset": 2216,
       "length": 13,
       "value": "\"oldPassword\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
-      "offset": 2256,
+      "offset": 2257,
       "length": 13,
       "value": "\"newPassword\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
-      "offset": 2301,
+      "offset": 2302,
       "length": 12,
       "value": "\"rePassword\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
-      "offset": 2772,
+      "offset": 2773,
       "length": 11,
       "value": "\"mobileNum\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
-      "offset": 3331,
+      "offset": 3332,
       "length": 11,
       "value": "\"mobileNum\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
-      "offset": 3693,
+      "offset": 3694,
       "length": 11,
       "value": "\"mobileNum\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
-      "offset": 4170,
+      "offset": 4171,
       "length": 8,
       "value": "\"userId\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
-      "offset": 4488,
+      "offset": 4489,
       "length": 10,
       "value": "\"mobileno\""
     },
     {
       "filePath": "\/Users\/yashwantg\/AndroidStudioProjects\/finvu-mobile\/finvu_ios_sdk\/finvu_ios_sdk\/Classes\/models\/Auth.swift",
       "kind": "StringLiteral",
-      "offset": 4552,
+      "offset": 4553,
       "length": 12,
       "value": "\"repassword\""
     },
